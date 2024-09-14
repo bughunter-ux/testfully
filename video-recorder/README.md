@@ -15,12 +15,11 @@ This repository contains Robot Framework test for video-recorder app/web-service
 
 1. Clone the repository
 2. Install required libraries with pip
-2. Specify in test.robot:
-${LOGIN_URL}    Video Recorder URL
-${EMAIL}        Your mail address
-${PASSWORD}     Your password
-
-3. Run the test with the command `robot -d test-report test.robot`
+3. Specify in test.robot:
+	* `${LOGIN_URL}` - Video Recorder URL
+	* `${EMAIL}` - Your mail address
+	* `${PASSWORD}` - Your password
+4. Run the test with the command `robot -d test-report test.robot`
 
 ## Documentation
 
