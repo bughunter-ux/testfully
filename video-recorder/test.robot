@@ -2,7 +2,7 @@
 Library    Browser
 
 *** Variables ***
-${LOGIN_URL}    https://specify_video_recorder_site/login/email
+${LOGIN_URL}    https://cloud.swivl.com/login/email
 ${EMAIL}        your_mail@gmail.com
 ${PASSWORD}     your_password
 @{PERMISSIONS}  camera    microphone
